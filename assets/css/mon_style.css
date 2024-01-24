@@ -10,7 +10,7 @@ img{
     padding-bottom: 20px;
 }
 body{
-    background-color: beige;
+    background: #1f293a;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -29,7 +29,7 @@ body{
 
 .container .left_side{
     position: relative;
-    background-color: #ccaf39;
+    background: #2f3e58;
     padding: 40px;
 }
 
@@ -108,8 +108,8 @@ body{
     display: flex;
 }
 
-.contact .liste1 .icon{
-    color: rgb(19, 154, 212);
+.contact .liste1 .icon i{
+    color: #0ef;
 }
 
 .reseaux .liste1{
@@ -122,8 +122,8 @@ body{
     display: flex;
 }
 
-.reseaux .liste1 .icon{
-    color: rgb(19, 154, 212);
+.reseaux .liste1 .icon i{
+    color: #0ef;
 }
 
 .education .liste2{
@@ -138,11 +138,25 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    text-align: center;
 }
 
 .education .liste2 h4{
     font-size: 13px;
     color: rgb(19, 154, 212);
+}
+
+.education .liste2 a {
+    color: #ffffff;
+}
+
+.education .liste2 .domaine{
+    opacity: .5;
+}
+
+.languages {
+    padding-top: 15px;
 }
 
 .languages .block{
@@ -185,10 +199,11 @@ body{
 }
 
 .title2{
-    color: #ccaf39;
+    color: #2f3e58;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 10px;
 }
 
 .a_propos p{
@@ -196,9 +211,13 @@ body{
     font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
+.experience {
+    border: 1px solid #2f3e58;
+    margin-bottom: 30px;
+}
+
 .a_propos .experience div{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
     margin: 10px;
 }
@@ -209,12 +228,28 @@ body{
     justify-content: space-around;
 }
 
+.annee_experience {
+    display: flex;
+    flex-direction: column;
+}
+
+.annee_experience a{
+    color: rgb(67, 115, 184);
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+}
+
 .a_propos .experience h4{
     font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.skills{
+    padding-top: 10px;
+}
+
 .skills .box{
     margin-bottom: 40px;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
     
 }
 .skills .box .pourcent1{
