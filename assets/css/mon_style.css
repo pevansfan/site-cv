@@ -214,6 +214,7 @@ body{
 .experience {
     border: 1px solid #2f3e58;
     margin-bottom: 30px;
+    border-radius: 20px;
 }
 
 .a_propos .experience div{
@@ -234,8 +235,20 @@ body{
 }
 
 .annee_experience a{
-    color: rgb(67, 115, 184);
+    color: #ffffff;
+    background-color: #2f3e58;
     font-family: Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: .4s ease-in;
+}
+
+.annee_experience a:hover {
+    color: #1f293a;
+    background-color: #ffffff;
+    text-decoration: underline;
+    letter-spacing: 1px;
 }
 
 .a_propos .experience h4{
@@ -292,3 +305,22 @@ body{
     
 }
 
+@media screen and (max-width: 998px){
+    .container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact .liste1,
+    .reseaux .liste1 {
+        margin-left: 60px;
+    }
+
+    .activites {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+    }
+
+}
